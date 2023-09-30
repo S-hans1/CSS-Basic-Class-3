@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="containerflexstyles.css">
+
+</head>
+
+<body>
+
+    <!-- shorthand not used .container>.box*4{box-$} -->
+
+    <div class="container">
+        <div class="box" id="box1" >box-1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, beatae.</div>
+        <div class="box" id="box2" >box-2</div>
+        <div class="box" id="box3" >box-3</div>
+        <div class="box" id="box4" >box-4</div>
+    </div>
+    
+</body>
+</html>
+
+
+
+
+<!-- notes -->
+1<!-- jaise hi display flex krenge, sara content main axis pe aa jyega means by default flex direction row hoti h -->
+2<!-- flex-direction : row/column/ row-reverse/column-reverse  -->
+3<!-- flex wrap- wrap/no wrap/wrap reverse agar mai chahtu hiu ki width intact rahe squeeze krne par -->
+4<!-- justify-content : main axis k upar items ko align krta hai, ye property main axis pe apply hoti hai
+      justify-content: flex start/flex end/ center/ space between/around/evenly/    -->
+5<!-- align-items : ye property cross axis pe apply hoti hai 
+      align-items : stretch/flex start/flex end/ center/ -->
+6<!-- gap between flex items -->
+7<!-- align-content: content ke beech ki spacing ko ajust krna -->
+
+<!-- 
+flex items properties
+1. order:1/2/3
+2. flex grow : by default value zero hoti hai. width ko grow krna
+3. flex shrink : konsa box kitni speed se shrink hoga inspect krne pe.by default value=1
+4. responsive desgin means jaise ham orientation/screensize change krte hain hamari website ka layout break nhi hoga
+5. flex basis= width of box Difference? when we use flex basis, content size ajusts itslef according to content size. whereas with width attribute the content size hides in the box.
+6. align-self : single item ko align krna -->

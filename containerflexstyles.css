@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    /* doesnt include padding and border in total width.content ka size chota ho jyega */
+}
+ .container{
+    height:600px;
+
+    border: 1px solid black;
+    display: flex;
+
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    /* justify-content: baseline; */
+    /* align-items: center;
+    justify-content: center; */
+  
+    /* align-items: flex-end; */
+
+    /* align-items: flex-start; */
+    /* justify-content: center;
+    align-items: center; */
+    /* align-items: stretch; */
+    /* align-items: baseline; */
+    
+
+    /* gap: 10px; */
+
+    /* align-content:flex-start;
+    align-content: flex-end;
+    align-content: space-around;
+    align-content: space-between;
+    align-content: space-evenly; */
+
+    justify-content: center;
+    
+
+
+
+
+   
+    
+
+
+}
+.box{
+    height: 100px;
+    /* width: 100px; */
+    border: 1px solid black;
+}
+#box1{
+    background-color: aqua;
+    /* order: 1;
+    flex-grow: 0.5; */
+    /* flex-basis: 100px;
+   flex-grow: 0.5; */
+   align-self: flex-start;
+    
+}
+#box2{
+    background-color: green;
+    /* order: 3;
+    flex-shrink: 4; */
+    align-self: stretch;
+}
+#box3{
+    background-color: brown;
+    /* order: 8; */
+    align-self: flex-end;
+}
+#box4{
+    background-color: yellow;
+}
+
